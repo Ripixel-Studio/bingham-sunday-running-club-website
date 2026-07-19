@@ -1,0 +1,105 @@
+{
+  "date": "2026-07-19T14:57:30.417Z",
+  "mainPhoto": "/images/races/2026-07-19.jpg",
+  "body": "What a day for a Sunday run! Glorious weather and great chat 💪 😎",
+  "participants": [
+    {
+      "runner": "james",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "24:02"
+    },
+    {
+      "runner": "james-e",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "30:00"
+    },
+    {
+      "runner": "steve",
+      "smallLoops": 0,
+      "mediumLoops": 3,
+      "longLoops": 0,
+      "time": "25:41"
+    },
+    {
+      "runner": "emily",
+      "smallLoops": 0,
+      "mediumLoops": 1,
+      "longLoops": 3,
+      "time": "29:39"
+    },
+    {
+      "runner": "simon",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 5,
+      "time": "31:18"
+    },
+    {
+      "runner": "beth-w",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 5,
+      "time": "32:20"
+    },
+    {
+      "runner": "kat",
+      "smallLoops": 0,
+      "mediumLoops": 1,
+      "longLoops": 2,
+      "time": "33:35"
+    },
+    {
+      "runner": "dean",
+      "smallLoops": 0,
+      "mediumLoops": 1,
+      "longLoops": 3,
+      "time": "23:18"
+    },
+    {
+      "runner": "charlotte",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "20:42"
+    },
+    {
+      "runner": "adam",
+      "smallLoops": 0,
+      "mediumLoops": 5,
+      "longLoops": 0,
+      "time": "27:09"
+    },
+    {
+      "runner": "bella",
+      "smallLoops": 0,
+      "mediumLoops": 1,
+      "longLoops": 3,
+      "time": "26:33"
+    },
+    {
+      "runner": "halyna",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "33:35"
+    },
+    {
+      "runner": "jason-p",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "30:02"
+    },
+    {
+      "runner": "hazel",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "27:43"
+    }
+  ]
+}
