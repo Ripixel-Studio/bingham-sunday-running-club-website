@@ -131,7 +131,7 @@ api.get("/callback", async (req, res) => {
     return res.send(
       renderBody(provider, "success", {
         token: token.token.access_token,
-        provider: provider
+        provider: provider,
       })
     );
   } catch (error) {
