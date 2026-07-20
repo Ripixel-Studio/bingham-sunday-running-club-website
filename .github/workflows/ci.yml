@@ -34,8 +34,8 @@ jobs:
       # The only real check the root project defines: `skier` builds the site.
       - run: npm run build
 
-  typecheck-functions:
-    name: Typecheck functions
+  check-functions:
+    name: Lint & typecheck functions
     runs-on: ubuntu-latest
     timeout-minutes: 10
     defaults:
@@ -49,5 +49,7 @@ jobs:
           cache: npm
           cache-dependency-path: functions/package-lock.json
       - run: npm ci
+      # ESLint — the config lives in functions/.eslintrc.js.
+      - run: npm run lint
       # `build` is `tsc` — compiles the OAuth gateway, i.e. a typecheck.
       - run: npm run build

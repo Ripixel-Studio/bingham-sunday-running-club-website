@@ -28,5 +28,7 @@ module.exports = {
     "quotes": ["warn", "double"],
     "import/no-unresolved": 0,
     "indent": ["error", 2],
+    // express.Router() is a factory, not a constructor — exempt from new-cap.
+    "new-cap": ["error", { "capIsNewExceptions": ["express.Router"] }],
   },
 };
