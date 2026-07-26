@@ -1,0 +1,126 @@
+{
+  "date": "2026-07-26T08:44:16.592Z",
+  "mainPhoto": "/images/races/2026-07-26.jpg",
+  "body": "Another warm one, another beautiful session!",
+  "participants": [
+    {
+      "runner": "charlotte",
+      "smallLoops": 0,
+      "mediumLoops": 4,
+      "longLoops": 0,
+      "time": "25:30"
+    },
+    {
+      "runner": "dean",
+      "smallLoops": 0,
+      "mediumLoops": 5,
+      "longLoops": 0,
+      "time": "29:33"
+    },
+    {
+      "runner": "james",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "22:37"
+    },
+    {
+      "runner": "hazel",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "28:00"
+    },
+    {
+      "runner": "emily",
+      "smallLoops": 0,
+      "mediumLoops": 1,
+      "longLoops": 3,
+      "time": "31:23"
+    },
+    {
+      "runner": "simon",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "30:49"
+    },
+    {
+      "runner": "beth-w",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "28:53"
+    },
+    {
+      "runner": "halyna",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "26:57"
+    },
+    {
+      "runner": "kat",
+      "smallLoops": 1,
+      "mediumLoops": 1,
+      "longLoops": 0,
+      "time": "22:39"
+    },
+    {
+      "runner": "chris",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 5,
+      "time": "32:34"
+    },
+    {
+      "runner": "emma",
+      "smallLoops": 0,
+      "mediumLoops": 1,
+      "longLoops": 3,
+      "time": "28:23"
+    },
+    {
+      "runner": "helen",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "26:52"
+    },
+    {
+      "runner": "james-s",
+      "smallLoops": 0,
+      "mediumLoops": 2,
+      "longLoops": 3,
+      "time": "30:24"
+    },
+    {
+      "runner": "lesley-s",
+      "smallLoops": 0,
+      "mediumLoops": 1,
+      "longLoops": 3,
+      "time": "32:11"
+    },
+    {
+      "runner": "lillie",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "28:18"
+    },
+    {
+      "runner": "max",
+      "smallLoops": 1,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "30:12"
+    },
+    {
+      "runner": "sarah",
+      "smallLoops": 0,
+      "mediumLoops": 2,
+      "longLoops": 2,
+      "time": "31:29"
+    }
+  ]
+}
