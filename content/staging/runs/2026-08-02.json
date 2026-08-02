@@ -1,0 +1,175 @@
+{
+  "date": "2026-08-02T08:47:38.136Z",
+  "mainPhoto": "/images/races/2026-08-02.jpg",
+  "body": "Our biggest field of runners yet! And what a gorgeous morning for it 💪 🌞",
+  "participants": [
+    {
+      "runner": "james",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "22:08"
+    },
+    {
+      "runner": "kat",
+      "smallLoops": 0,
+      "mediumLoops": 2,
+      "longLoops": 1,
+      "time": "31:51"
+    },
+    {
+      "runner": "helen",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "31:52"
+    },
+    {
+      "runner": "hazel",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "27:46"
+    },
+    {
+      "runner": "emma",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "28:47"
+    },
+    {
+      "runner": "beth-w",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 5,
+      "time": "33:00"
+    },
+    {
+      "runner": "dean",
+      "smallLoops": 1,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "37:30"
+    },
+    {
+      "runner": "james-s",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "23:37"
+    },
+    {
+      "runner": "simon",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 5,
+      "time": "29:53"
+    },
+    {
+      "runner": "emily",
+      "smallLoops": 0,
+      "mediumLoops": 1,
+      "longLoops": 3,
+      "time": "29:27"
+    },
+    {
+      "runner": "lesley-s",
+      "smallLoops": 0,
+      "mediumLoops": 1,
+      "longLoops": 3,
+      "time": "33:10"
+    },
+    {
+      "runner": "aneta",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "27:49"
+    },
+    {
+      "runner": "ben",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "30:57"
+    },
+    {
+      "runner": "david",
+      "smallLoops": 1,
+      "mediumLoops": 2,
+      "longLoops": 0,
+      "time": "28:05"
+    },
+    {
+      "runner": "fran",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "31:53"
+    },
+    {
+      "runner": "helen-s",
+      "smallLoops": 0,
+      "mediumLoops": 2,
+      "longLoops": 0,
+      "time": "24:22"
+    },
+    {
+      "runner": "holly",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "31:43"
+    },
+    {
+      "runner": "james-e",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "24:57"
+    },
+    {
+      "runner": "richard",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "26:43"
+    },
+    {
+      "runner": "ronnie-w",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "30:34"
+    },
+    {
+      "runner": "steve",
+      "smallLoops": 0,
+      "mediumLoops": 3,
+      "longLoops": 0,
+      "time": "25:24"
+    },
+    {
+      "runner": "victoria",
+      "smallLoops": 1,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "37:31"
+    },
+    {
+      "runner": "will-s",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "23:39"
+    },
+    {
+      "runner": "sean",
+      "smallLoops": 0,
+      "mediumLoops": 3,
+      "longLoops": 1,
+      "time": "27:04"
+    }
+  ]
+}
