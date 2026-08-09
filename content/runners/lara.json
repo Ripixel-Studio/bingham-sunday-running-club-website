@@ -2,5 +2,7 @@
   "id": "lara",
   "name": "Lara",
   "anonymous": false,
-  "joinedDate": "2026-04-26"
+  "joinedDate": "2026-04-26",
+  "colorClass": "pink",
+  "photo": "/images/screenshot-2026-08-09-195741.png"
 }
