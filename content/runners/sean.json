@@ -2,5 +2,7 @@
   "id": "sean",
   "name": "Sean",
   "anonymous": false,
-  "joinedDate": "2026-08-02"
+  "joinedDate": "2026-08-02",
+  "photo": "/images/screenshot-2026-08-09-203115.png",
+  "colorClass": "orange"
 }
