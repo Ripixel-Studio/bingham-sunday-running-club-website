@@ -2,5 +2,7 @@
   "id": "dimitri",
   "name": "Dimitri",
   "anonymous": false,
-  "joinedDate": "2026-02-22"
+  "joinedDate": "2026-02-22",
+  "photo": "/images/large.jpg",
+  "colorClass": "green"
 }
