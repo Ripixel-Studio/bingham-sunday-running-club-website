@@ -2,5 +2,7 @@
   "id": "max",
   "name": "Max",
   "anonymous": false,
-  "joinedDate": "2026-04-26"
+  "joinedDate": "2026-04-26",
+  "photo": "/images/screenshot-2026-08-09-200328.png",
+  "colorClass": "pink"
 }
