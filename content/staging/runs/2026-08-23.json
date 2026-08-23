@@ -1,0 +1,126 @@
+{
+  "date": "2026-08-23T09:01:07.251Z",
+  "mainPhoto": "/images/races/2026-08-23.jpg",
+  "body": "No classic car show today so back at the usual place! Great laughs and smiles as always ❤️",
+  "participants": [
+    {
+      "runner": "chris",
+      "smallLoops": 0,
+      "mediumLoops": 1,
+      "longLoops": 2,
+      "time": "30:26"
+    },
+    {
+      "runner": "david",
+      "smallLoops": 0,
+      "mediumLoops": 1,
+      "longLoops": 2,
+      "time": "27:32"
+    },
+    {
+      "runner": "dean",
+      "smallLoops": 0,
+      "mediumLoops": 1,
+      "longLoops": 3,
+      "time": "27:38"
+    },
+    {
+      "runner": "emma",
+      "smallLoops": 0,
+      "mediumLoops": 1,
+      "longLoops": 3,
+      "time": "29:45"
+    },
+    {
+      "runner": "holly",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "33:11"
+    },
+    {
+      "runner": "simon",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 5,
+      "time": "29:26"
+    },
+    {
+      "runner": "sean",
+      "smallLoops": 0,
+      "mediumLoops": 5,
+      "longLoops": 0,
+      "time": "29:43"
+    },
+    {
+      "runner": "hazel",
+      "smallLoops": 1,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "33:12"
+    },
+    {
+      "runner": "beth",
+      "smallLoops": 1,
+      "mediumLoops": 1,
+      "longLoops": 0,
+      "time": "21:37"
+    },
+    {
+      "runner": "kat",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "32:55"
+    },
+    {
+      "runner": "danielle",
+      "smallLoops": 1,
+      "mediumLoops": 1,
+      "longLoops": 1,
+      "time": "27:00"
+    },
+    {
+      "runner": "halyna",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "32:51"
+    },
+    {
+      "runner": "james-s",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "23:52"
+    },
+    {
+      "runner": "joe",
+      "smallLoops": 1,
+      "mediumLoops": 1,
+      "longLoops": 1,
+      "time": "20:46"
+    },
+    {
+      "runner": "lesley-s",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "34:30"
+    },
+    {
+      "runner": "max",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "21:12"
+    },
+    {
+      "runner": "will-s",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "25:51"
+    }
+  ]
+}
