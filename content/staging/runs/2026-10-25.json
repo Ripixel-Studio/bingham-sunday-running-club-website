@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-25T10:34:45.652Z",
+  "mainPhoto": "/images/races/2026-10-25.jpg",
+  "body": "So heckin windy! But we all showed up 💪",
+  "participants": [
+    {
+      "runner": "daisy",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "31:07"
+    },
+    {
+      "runner": "hazel",
+      "smallLoops": 1,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "34:46"
+    },
+    {
+      "runner": "beth-w",
+      "smallLoops": 0,
+      "mediumLoops": 1,
+      "longLoops": 4,
+      "time": "35:33"
+    },
+    {
+      "runner": "ed-h",
+      "smallLoops": 1,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "33:13"
+    },
+    {
+      "runner": "james-mark",
+      "smallLoops": 1,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "33:12"
+    },
+    {
+      "runner": "maisie",
+      "smallLoops": 2,
+      "mediumLoops": 1,
+      "longLoops": 0,
+      "time": "30:22"
+    },
+    {
+      "runner": "philippa-b",
+      "smallLoops": 2,
+      "mediumLoops": 1,
+      "longLoops": 0,
+      "time": "30:20"
+    },
+    {
+      "runner": "sarah-m",
+      "smallLoops": 0,
+      "mediumLoops": 3,
+      "longLoops": 0,
+      "time": "34:15"
+    },
+    {
+      "runner": "steve",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "28:36"
+    },
+    {
+      "runner": "darcey",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "29:05"
+    },
+    {
+      "runner": "holly",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "33:34"
+    }
+  ]
+}
