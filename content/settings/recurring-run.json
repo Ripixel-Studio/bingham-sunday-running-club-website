@@ -3,6 +3,7 @@
   "description": "Our regular Sunday morning run followed by breakfast at Gilt Cafe",
   "defaultLocation": "Bingham Market Place",
   "defaultTime": "09:00",
+  "ownRouteLabel": "Own route",
   "distance": "2-10km (your choice!)",
   "loopDistances": {
     "approach": 0.55,
