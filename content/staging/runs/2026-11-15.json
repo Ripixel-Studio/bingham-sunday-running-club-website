@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-15T09:53:29.533Z",
+  "mainPhoto": "/images/races/2026-11-15.jpg",
+  "body": "Coldest start so far, but we're here all winter 💪",
+  "participants": [
+    {
+      "runner": "steve",
+      "smallLoops": 1,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "32:18"
+    },
+    {
+      "runner": "darcey",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "30:13"
+    },
+    {
+      "runner": "maisie",
+      "smallLoops": 3,
+      "mediumLoops": 1,
+      "longLoops": 0,
+      "time": "31:25"
+    },
+    {
+      "runner": "daisy",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "30:10"
+    },
+    {
+      "runner": "holly",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "30:20"
+    },
+    {
+      "runner": "beth-w",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 5,
+      "time": "34:23"
+    },
+    {
+      "runner": "beth",
+      "smallLoops": 0,
+      "mediumLoops": 3,
+      "longLoops": 0,
+      "time": "26:08"
+    },
+    {
+      "runner": "charlotte",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "27:58"
+    },
+    {
+      "runner": "dean",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "27:58"
+    },
+    {
+      "runner": "james-e",
+      "smallLoops": 0,
+      "mediumLoops": 7,
+      "longLoops": 0,
+      "time": "34:12"
+    },
+    {
+      "runner": "emma",
+      "smallLoops": 0,
+      "mediumLoops": 7,
+      "longLoops": 0,
+      "time": "34:51"
+    },
+    {
+      "runner": "helen-s",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "36:37"
+    },
+    {
+      "runner": "james",
+      "smallLoops": 0,
+      "mediumLoops": 3,
+      "longLoops": 0,
+      "time": "26:03"
+    },
+    {
+      "runner": "james-s",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "27:32"
+    },
+    {
+      "runner": "joe",
+      "smallLoops": 1,
+      "mediumLoops": 4,
+      "longLoops": 0,
+      "time": "30:21"
+    },
+    {
+      "runner": "kat",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "33:31"
+    },
+    {
+      "runner": "richard-h",
+      "smallLoops": 0,
+      "mediumLoops": 6,
+      "longLoops": 0,
+      "time": "33:56"
+    },
+    {
+      "runner": "sean",
+      "smallLoops": 0,
+      "mediumLoops": 6,
+      "longLoops": 0,
+      "time": "36:16"
+    },
+    {
+      "runner": "simon",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 5,
+      "time": "27:42"
+    }
+  ]
+}
