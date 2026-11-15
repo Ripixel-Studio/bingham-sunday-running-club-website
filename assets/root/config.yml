@@ -291,6 +291,7 @@ collections:
                   - { label: "Day & Time", name: "when", widget: "string", default: "Every Sunday @ 9:00 AM" }
                   - { label: "Location", name: "where", widget: "string", default: "Bingham Market Place" }
                   - { label: "Distance", name: "distance", widget: "string", default: "5-10km (your choice!)" }
+          - { label: "Own Route Label", name: "ownRouteLabel", widget: "string", default: "Own route", hint: "Route shown on results for runners logged with a distance instead of loops (free-form runs from the race tracker)." }
                   - { label: "After Run", name: "after", widget: "string", default: "Brunch at a local café" }
               - label: "Parking"
                 name: "parking"
@@ -446,5 +447,6 @@ collections:
           - { label: "Small Loops (0.8km)", name: "smallLoops", widget: "number", default: 0 }
           - { label: "Medium Loops (1km)", name: "mediumLoops", widget: "number", default: 0 }
           - { label: "Long Loops (1.2km)", name: "longLoops", widget: "number", default: 0 }
+          - { label: "Route (if no loops)", name: "route", widget: "string", required: false, hint: "Shown instead of loops, e.g. 'Own route'. Leave blank for loop runs." }
           - { label: "Time (MM:SS)", name: "time", widget: "string" }
       - { label: "Race Comments", name: "body", widget: "markdown", required: false }

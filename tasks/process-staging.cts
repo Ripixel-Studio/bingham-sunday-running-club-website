@@ -10,6 +10,7 @@ interface Participant {
   smallLoops?: number;
   mediumLoops?: number;
   longLoops?: number;
+  route?: string;
   time: string;
 }
 
@@ -25,6 +26,7 @@ interface RecurringSettings {
   title: string;
   description: string;
   defaultLocation: string;
+  ownRouteLabel?: string;
   loopDistances: {
     approach?: number;
     small: number;
@@ -194,6 +196,9 @@ export const createProcessStagingTask = (): TaskDef<{}, void> => ({
         const loops = recurringSettings.loopDistances;
         const participants = stagedData.participants.map(p => {
           let distance = p.distance;
+          const totalLoopCount = (p.smallLoops || 0) + (p.mediumLoops || 0) + (p.longLoops || 0);
+          // Free-form ("own route") entry from the race tracker: explicit distance, no loops
+          const isOwnRoute = totalLoopCount === 0 && typeof distance === 'number' && distance > 0;
           if (distance === undefined || distance === null) {
             const totalLoops = (p.smallLoops || 0) + (p.mediumLoops || 0) + (p.longLoops || 0);
             const loopDistance = (p.smallLoops || 0) * loops.small +
@@ -209,6 +214,7 @@ export const createProcessStagingTask = (): TaskDef<{}, void> => ({
             smallLoops: p.smallLoops || 0,
             mediumLoops: p.mediumLoops || 0,
             longLoops: p.longLoops || 0,
+            ...(isOwnRoute ? { route: p.route || recurringSettings.ownRouteLabel || 'Own route' } : {}),
             time: p.time,
           };
         });
