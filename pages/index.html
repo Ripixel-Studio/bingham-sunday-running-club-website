@@ -327,8 +327,10 @@
                         {{> avatar photo=photo name=name firstInitial=firstInitial colorClass=colorClass size="mini" }}
                         <span class="pb-runner-name">{{name}}</span>
                       </div>
+                      {{#if date}}
                       <span class="pb-separator">·</span>
                       <span class="pb-date">{{date}}</span>
+                      {{/if}}
                     </div>
                   </div>
                   {{#if runner}}
