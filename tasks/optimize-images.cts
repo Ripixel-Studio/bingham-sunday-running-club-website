@@ -1,8 +1,12 @@
 /**
  * optimize-images.cts
  *
- * Task to generate optimized OG image variants for social sharing.
- * Resizes large phone photos to 1200×630 JPEG at 80% quality.
+ * 1. Normalises the photos the tracker and the CMS commit (images/races,
+ *    images/runners) in public/: anything over a long edge or byte limit is
+ *    scaled down and re-encoded as JPEG, dropping EXIF (GPS included). The
+ *    tracker already shrinks before upload; this catches everything else
+ *    (old uploads, CMS uploads, PNG exports saved as .jpg).
+ * 2. Generates OG image variants for social sharing: 1200×630 JPEG at 80%.
  */
 import * as fs from 'fs';
 import * as path from 'path';
@@ -15,12 +19,51 @@ const OG_HEIGHT = 630;
 const OG_QUALITY = 80;
 const SUPPORTED_EXTENSIONS = ['.jpg', '.jpeg', '.png'];
 
+/** Photo dirs (under public/images) and the long edge each is served at. */
+const NORMALISE_DIRS: Array<{ dir: string; maxEdge: number }> = [
+    { dir: 'races', maxEdge: 1920 },
+    { dir: 'runners', maxEdge: 640 },
+];
+const NORMALISE_MAX_BYTES = 800 * 1024;
+const NORMALISE_QUALITY = 82;
+
+async function normalisePhotos(projectRoot: string, logger: { info(m: string): void; error(m: string): void }) {
+    for (const { dir, maxEdge } of NORMALISE_DIRS) {
+        const abs = path.join(projectRoot, 'public/images', dir);
+        if (!fs.existsSync(abs)) continue;
+        for (const file of fs.readdirSync(abs)) {
+            const filePath = path.join(abs, file);
+            if (!SUPPORTED_EXTENSIONS.includes(path.extname(file).toLowerCase())) continue;
+            if (fs.statSync(filePath).isDirectory()) continue;
+            try {
+                const inputSize = fs.statSync(filePath).size;
+                const meta = await sharp(filePath).metadata();
+                // EXIF orientation 5-8 swaps width and height.
+                const longEdge = Math.max(meta.width ?? 0, meta.height ?? 0);
+                if (longEdge <= maxEdge && inputSize <= NORMALISE_MAX_BYTES) continue;
+                const out: Buffer = await sharp(filePath)
+                    .rotate() // apply EXIF orientation before metadata is dropped
+                    .resize(maxEdge, maxEdge, { fit: 'inside', withoutEnlargement: true })
+                    .flatten({ background: '#ffffff' })
+                    .jpeg({ quality: NORMALISE_QUALITY, mozjpeg: true })
+                    .toBuffer();
+                fs.writeFileSync(filePath, out);
+                logger.info(`Normalised: ${dir}/${file} (${formatBytes(inputSize)} → ${formatBytes(out.length)})`);
+            } catch (err) {
+                logger.error(`Failed to normalise ${dir}/${file}: ${(err as Error).message}`);
+            }
+        }
+    }
+}
+
 export const createOptimizeImagesTask = (): TaskDef<{}, void> => ({
     name: 'optimize-images',
-    title: 'Generate optimized OG images for social sharing',
+    title: 'Normalise uploaded photos and generate OG images',
     config: {},
     run: async (_, { logger }) => {
         const projectRoot = process.cwd();
+        await normalisePhotos(projectRoot, logger);
+
         const racesDir = path.join(projectRoot, 'public/images/races');
         const ogDir = path.join(racesDir, 'og');
 
