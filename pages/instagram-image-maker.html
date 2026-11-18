@@ -408,7 +408,11 @@
 
   <script>
     // Constants
-    const OUTPUT_SIZE = 4320; // 4x for maximum quality
+    // Instagram shows posts at 1080px wide; 2x that stays sharp on any screen
+    // without the 10-20 MB files a 4320px PNG made.
+    const OUTPUT_SIZE = 2160;
+    const FULL_MAX_EDGE = 2160; // full-size mode: long edge cap
+    const JPEG_QUALITY = 0.9;
     const BANNER_HEIGHT_RATIO = 0.12; // Banner takes 12% of height
     const BLEED_RATIO = 0.02; // 2% bleed around text for legibility
     const HANDLE_SIZE = 12; // Size of corner handles
@@ -907,6 +911,7 @@
       outputCtx.fillRect(0, 0, OUTPUT_SIZE, OUTPUT_SIZE);
 
       // Draw the cropped image at FULL size (banner overlays on top)
+      outputCtx.imageSmoothingQuality = 'high'; // downscaling a phone photo
       outputCtx.drawImage(
         originalImage,
         sourceX, sourceY, sourceSize, sourceSize,
@@ -922,9 +927,10 @@
     }
 
     function generateFullSizePreview() {
-      // Use full original image dimensions — banner overlays, no extra height
-      const outputWidth = originalImage.width;
-      const outputHeight = originalImage.height;
+      // Original aspect ratio, long edge capped — banner overlays, no extra height
+      const fullScale = Math.min(1, FULL_MAX_EDGE / Math.max(originalImage.width, originalImage.height));
+      const outputWidth = Math.round(originalImage.width * fullScale);
+      const outputHeight = Math.round(originalImage.height * fullScale);
       const bannerHeight = Math.round(outputWidth * BANNER_HEIGHT_RATIO);
 
       // Set output canvas size (same as original image)
@@ -935,8 +941,9 @@
       outputCtx.fillStyle = '#1a1a1a';
       outputCtx.fillRect(0, 0, outputWidth, outputHeight);
 
-      // Draw the full image at its native size
-      outputCtx.drawImage(originalImage, 0, 0);
+      // Draw the full image, scaled to the output size
+      outputCtx.imageSmoothingQuality = 'high';
+      outputCtx.drawImage(originalImage, 0, 0, outputWidth, outputHeight);
 
       // Draw the banner overlaying the image
       const bannerY = bannerPosition === 'top' ? 0 : outputHeight - bannerHeight;
@@ -1054,8 +1061,8 @@
     // Download button
     downloadBtn.addEventListener('click', () => {
       const link = document.createElement('a');
-      link.download = 'bsrc-instagram-' + Date.now() + '.png';
-      link.href = outputCanvas.toDataURL('image/png');
+      link.download = 'bsrc-instagram-' + Date.now() + '.jpg';
+      link.href = outputCanvas.toDataURL('image/jpeg', JPEG_QUALITY);
       link.click();
     });
 
