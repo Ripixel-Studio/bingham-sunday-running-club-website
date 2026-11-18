@@ -129,32 +129,32 @@
     },
     "records": [
       {
-        "name": "Rory",
-        "runner": "rory",
+        "name": "James P S",
+        "runner": "james-p-s",
         "distance": "5k",
-        "time": "19:36",
-        "date": "January 24, 2026"
+        "time": "14:32",
+        "date": ""
       },
       {
-        "name": "Dean",
-        "runner": "dean",
+        "name": "James P S",
+        "runner": "james-p-s",
         "distance": "10k",
-        "time": "44:22",
-        "date": "2025-02-11"
+        "time": "40:51",
+        "date": ""
       },
       {
-        "name": "Dean",
-        "runner": "dean",
+        "name": "Simon",
+        "runner": "simon",
         "distance": "Half Marathon",
-        "time": "1:40:11",
-        "date": "January 12, 2025"
+        "time": "1:39:43",
+        "date": ""
       },
       {
         "name": "James",
         "runner": "james",
         "distance": "Marathon",
-        "time": "5:48:03",
-        "date": "January 11, 2026"
+        "time": "4:53:12",
+        "date": ""
       }
     ]
   }
