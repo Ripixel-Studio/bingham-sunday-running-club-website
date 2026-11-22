@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-22T10:01:52.418Z",
+  "mainPhoto": "/images/races/2026-11-22.jpg",
+  "body": "Some folks away at Silverstone, some at Colwick, but still an amazing turnout at lil' ol' Bingham! 💪",
+  "participants": [
+    {
+      "runner": "emma",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "29:55"
+    },
+    {
+      "runner": "james",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 2,
+      "time": "17:47"
+    },
+    {
+      "runner": "beth",
+      "smallLoops": 0,
+      "mediumLoops": 3,
+      "longLoops": 0,
+      "time": "26:21"
+    },
+    {
+      "runner": "simon",
+      "distance": 5.16,
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 0,
+      "time": "23:51"
+    },
+    {
+      "runner": "steve",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 3,
+      "time": "27:14"
+    },
+    {
+      "runner": "emily",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "29:55"
+    },
+    {
+      "runner": "helen",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "34:49"
+    },
+    {
+      "runner": "kiran",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "28:21"
+    },
+    {
+      "runner": "lesley-s",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "34:43"
+    },
+    {
+      "runner": "ronnie-w",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "30:16"
+    },
+    {
+      "runner": "will-s",
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 4,
+      "time": "25:23"
+    },
+    {
+      "runner": "david",
+      "distance": 4.1,
+      "smallLoops": 0,
+      "mediumLoops": 0,
+      "longLoops": 0,
+      "time": "28:30"
+    }
+  ]
+}
